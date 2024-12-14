@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: 100vh;
+    align-items: center;
+  }
+  button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    text-transform: capitalize;
+    font-weight: 900;
+     
+    
+  }
+  .default{
+    background-color:white;
+    color: black;
+  }
+  .btn1{
+    background-color:black;
+    color: white;
+  }
+  .btn2{
+    background-color: blue;
+    color: white;
+  }
+  .btn3{
+    background-color:red;
+    color: white;
+  }
+  .btn4{
+    background-color: green;
+    color: white;
+  }
+  .btn5{
+    background-color: orangered;
+    color: white;
+  }
